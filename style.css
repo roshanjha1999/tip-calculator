@@ -1,0 +1,170 @@
+body{
+	font-family: calibri;
+}
+
+
+
+/*-------------MAIN HEADING--------- */
+
+#heading{
+	text-align: center;
+	font-size: 50px;
+	font-family: verdana;
+	color: #008080;
+}
+
+
+
+/*----------MAIN OUTER BOX---------------*/
+
+#box{
+	width: 80%;
+	height: 400px;
+	border: 1px solid gray; 
+	border-radius: 15px;
+	position: absolute;
+	left: 10%;
+	top: 130px;
+}
+
+
+
+
+/*-------------INPUT BOX----------*/
+
+#input{
+	width: 40%;
+	height: 100%;
+	border-right: 1px solid gray;
+	float: left;
+}
+
+label{
+	margin-top: 20px;
+	margin-left: 20px;
+	display: block;
+}
+
+
+#bill{
+	margin-top: 10px;
+	margin-left: 20px;
+	height: 50px;
+	width: 70%;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+#tipPercent{
+	margin: 10px 0px;
+	height: 50px;
+	width: 50%;
+	font-size: 20px;
+	text-align: center;
+}
+
+#numberOfPeople{
+	margin: 10px 0px;
+	height: 50px;
+	width: 50%;
+	font-size: 20px;
+	text-align: center;
+}
+
+.incDec1{
+     width: 10%;
+     height: 50px;
+     margin-left: 20px;
+     margin-right: 0px;
+     font-size: 24px;
+}
+
+.incDec2{
+	width: 10%;
+	height: 50px;
+	margin-left: 0px;
+	font-size: 24px;
+}
+
+#p01,#p02,#p03{
+	color: red;
+	font-size: 14px;
+	margin-left: 60px;
+	margin-top: 4px;
+	margin-bottom: 0px;
+}
+
+
+
+
+
+/*------------OUTPUT BOX-----------*/
+
+#output{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+
+#outerDiv1{
+	width: 80%;
+	height: 20%;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+#tip{
+	width: 40%;
+	height: 80%;
+	line-height: 0.1;
+	display: inline-block;
+	margin-top: 40px;
+}
+
+.line1{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.line2{
+	color: gray;
+}
+
+
+#tipAmount{
+       width: 40%;
+       height: 80%;
+       font-size: 40px;
+       display: inline-block;
+       margin-left: 20px;
+       margin-bottom: 40px;
+       padding: 20px;
+}
+
+#outerDiv2{
+	width: 80%
+	height: 20%;
+	margin-left: 50px;
+}
+
+#total{
+	width: 40%;
+	height: 80%;
+	line-height: 0.1;
+	display: inline-block;
+	margin-top: 40px;
+	
+}
+
+#totalAmount{
+	width: 40%;
+	height: 80%;
+	font-size: 70px;
+	font-weight: bold;
+	display: inline-block;
+	margin-left: 20px;
+	margin-bottom: 40px;
+	padding: 20px;
+}

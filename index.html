@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Tip Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="source.js"></script>
+</head>
+<body>
+<h1 id="heading">Tip Calculator</h1>	
+<div id=box>
+	<div id="input">
+		<label for="bill">Bill</label>
+		<input type="text" value="0" id="bill" oninput="calculator()">
+		<p id="p01"></p>
+		<label for="tipPercent">Tip %</label>
+		<input type="button" value="-" class="incDec1" onclick="tipDecrement(); calculator();">
+		<input type="text" value="0" id="tipPercent" oninput="calculator();">
+		<input type="button" value="+" class="incDec2" onclick="tipIncrement(); calculator();">
+		<p id="p02"></p>
+		<label for="numberOfPeople">Number of people</label>
+		<input type="button" value="-" class="incDec1" onclick="numberOfPeopleDecrement(); calculator();">
+		<input type="text" value="0" id="numberOfPeople" oninput="calculator()">
+		<input type="button" value="+" class="incDec2" onclick="numberOfPeopleIncrement(); calculator();">
+		<p id="p03"></p>
+	</div>
+	<div id="output">
+	<div id="outerDiv1">
+		<div id="tip">
+			<p class="line1">Tip</p>
+			<p class="line2">Per Person</p>
+		</div>
+		<p id="tipAmount">$0.00</p>
+	</div>
+	<div id="outerDiv2">
+		<div id="total">
+			<p class="line1">Total</p>
+			<p class="line2">Per Person</p>
+		</div>
+		<p id="totalAmount">$0.00</p>
+	</div>
+	</div>
+</div>	
+</html>
