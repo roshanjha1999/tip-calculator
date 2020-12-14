@@ -1,5 +1,10 @@
 # tip-calculator
 
 GrapeCity Assignment
-Technology used - HTML/CSS/JS
+
+
+Technology used - JavaScript
+
+
+
 Submitted by - Roshan Jha
